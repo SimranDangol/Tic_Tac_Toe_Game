@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe Game</title>
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <audio src="gameoversound.3.mp3" id="audioGameOver"></audio>
+      <h1>TIC TAC TOE </h1>
+      <h4>Game Starts by just Tap on Box</h2>
+      <h4>First player starts as Player O and Second player as Player X</h5>
+      <p class="player-turn"></p>
+    <div class="container">
+      <div class="game">
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+      </div>
+    </div>
+  </main>
+  <div class="msg-container ">
+    <p id="msg" class="hide">Winner</p>
+</div>
+<button id="new_game_btn">Play Again</button>
+  <button id="reset_btn">Reset Game</button>
+  <script src="app.js"></script>
+  </body>
+</html>
